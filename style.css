@@ -1,0 +1,47 @@
+#botao{
+	border-radius: 10px;
+}
+
+.botoes{
+	padding-left: 15px;
+	height: 25px;
+	width: 35px;
+}
+
+.card{
+	height: 270px;
+	width: 15%;
+	float: left;
+	margin-top: 15px;
+}
+
+.card:nth-child(odd){
+	transform: rotate(4deg);
+	margin-left: 25px;
+}
+
+.card:nth-child(even){
+	transform: rotate(0deg);
+	margin-left: 25px;
+}
+
+.card:nth-child(3n){
+	transform: rotate(-4deg);
+	margin-left: 25px;
+}
+
+.conteudo{
+	font-size: 30px;
+	padding: 12px;
+	color: black;
+}
+
+.conteudo2{
+	font-size: 30px;
+	padding: 12px;
+	color: white;
+}
+
+.oculto{
+	display: none;
+}
